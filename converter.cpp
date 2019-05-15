@@ -9,10 +9,16 @@ int main()
 
     do
     {
+         std::cout << R"(
+_________                                   __        __________
+\_   ___ \  ____   _______  __ ____________/  |_  ____\______   \
+/    \  \/ /  _ \ /    \  \/ // __ \_  __ \   __\/ __ \|       _/
+\     \___(  <_> )   |  \   /\  ___/|  | \/|  | \  ___/|    |   \
+ \______  /\____/|___|  /\_/  \___  >__|   |__|  \___  >____|_  /
+        \/            \/          \/                 \/       \/
+        )" << '\n';
          cout << "----------------------------------------------------" << endl;
-         cout << "|                  The Converter                   |" << endl;
-         cout << "|--------------------------------------------------|" << endl;
-         cout << "|  Dabi - Rai Haxor - ByteDevCode - Pirates Crew   |" << endl;
+         cout << "|Thanks To : ByteDevCode - 3n0 - my friend's       |" << endl;
          cout << "|--------------------------------------------------|" << endl;
          cout << "|1. Decimal to Binary                              |" << endl;
          cout << "|2. Binary to Decimal                              |" << endl;
@@ -55,11 +61,8 @@ int main()
          }
          else if (menu == 3)
          {
-             cout << "--------------------" << endl;
-             cout << "| Thanks..see ya ~ |" << endl;
-             cout << "--------------------" << endl;
+             cout << "Thanks :) " << endl;
          }
-
          cout << endl;
 
     } while (menu != 3);
